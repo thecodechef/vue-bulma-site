@@ -1,0 +1,35 @@
+repository:
+  name: vue-bulma-site
+  description: A Vue.js version of the Bulma CSS website
+  hompage: https://vue.bulma.io
+  private: false
+  topics:
+    - vue
+    - bulma
+    - vue-router
+    - vue-meta
+    - vuex
+    - vue-component
+    - web-component
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: true
+  default_branch: master
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: true
+
+  labels:
+    - name: bug
+    - name: help-wanted
+    - name: enhancement
+    - name: question
+    - name: wontfix
+    - name: stale
+    - name: feature
+    - name: pinned
+    - name: security
+    - name: wip
+    - name: v1.0.0
+    - name: v0.0.1

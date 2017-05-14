@@ -1,0 +1,18 @@
+
+daysUntilStale: 60
+daysUntilClose: 14
+
+exemptLabels:
+  - pinned
+  - security
+  - wip
+
+staleLabel: stale
+
+markComment: >
+  This issue has been automatically marked as stale because it has not had
+  recent activity. It will be closed if no further activity occurs. Thank you
+  for your contributions.
+unmarkComment: false
+closeComment: >
+  This [Issue/Pull Request] has been closed due to have not been worked on for the 2 weeks since becoming `stale`

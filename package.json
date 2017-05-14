@@ -1,7 +1,7 @@
 {
   "name": "vue-bulma-site",
   "displayName": "Vue Bulma Site",
-  "description": "A Vue.js version of the Bulma CSS webite",
+  "description": "A Vue.js version of the Bulma CSS website",
   "version": "0.4.1",
   "author": {
     "name": "Jeremy Bolding",
@@ -13,7 +13,14 @@
     "type": "git",
     "url": "https://github.com/thecodechef/vue-bulma-site.git"
   },
-  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/thecodechef/vue-bulma-site/issues"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "testing": "cross-env NODE_ENV=testing webpack"
+  },
   "dependencies": {
     "bower": "latest",
     "vue": "latest",

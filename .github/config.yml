@@ -32,4 +32,5 @@ repository:
     - name: security
     - name: wip
     - name: v1.0.0
+    - name: v0.0.2
     - name: v0.0.1

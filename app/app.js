@@ -9,8 +9,10 @@ Vue.use(Router)
 Vue.use(Meta)
 Vue.use(Vuex)
 
+import App from './App.vue'
 
 new Vue({
+  components: { App },
   data: {
     title: `Vue Bulma Site`,
     subtitle: `A Vue.js version of the Bulma CSS webite`,
@@ -20,7 +22,7 @@ new Vue({
   router,
   metaInfo: {
     title: this.title,
-    titleTemplate: '%s - Vue + Bulma'
+    titleTemplate: null
   },
   template: `<App/>`
 }).$mount('#app')

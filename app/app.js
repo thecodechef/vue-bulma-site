@@ -21,5 +21,6 @@ new Vue({
   metaInfo: {
     title: this.title,
     titleTemplate: '%s - Vue + Bulma'
-  }
+  },
+  template: `<App/>`
 }).$mount('#app')
